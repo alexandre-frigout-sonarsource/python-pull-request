@@ -3,4 +3,7 @@ class Personnage:
         self.age = _age
 
     def older(self, year):
-        self.age += year;
+        self.age += year
+
+    def younger(self, year):
+        self.age -= year
